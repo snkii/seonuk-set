@@ -19,3 +19,13 @@ for file in "${FILES[@]}"; do
     fi
 done
 
+# === 스크립트 자신 복사 ===
+
+# 현재 실행 중인 스크립트의 절대 경로 구하기
+SCRIPT_PATH="$(readlink -f "$0")"
+SCRIPT_NAME="$(basename "$SCRIPT_PATH")"
+
+# 자신을 백업 디렉토리에 복사
+cp "$SCRIPT_PATH" "$BACKUP_DIR/"
+echo "$SCRIPT_NAME 스크립트도 백업 완료"
+
