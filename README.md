@@ -15,6 +15,11 @@ conda remove --name <환경_이름> --all
 pip install -r requirements.txt
 ```
 
+### 가상환경 활성화 및 비활성화 자동화
+```bash
+echo "myenv" > .conda_auto_env
+```
+
 > ❗ **Tip**: 패키지 설치 시 오류가 발생하면 Python 버전을 낮춰보자.
 
 ### 패키지 제거
