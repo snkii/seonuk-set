@@ -1,10 +1,18 @@
+### 환경변수 설정 ###
+export CUDA_VISIBLE_DEVICES="0,1,2,3"
+export PATH=~/.local/bin:$PATH
+export TMPDIR=$HOME/tmp
+export PYTHONPATH=/home/sukim/project/icefall-250113/icefall:$PYTHONPATH
+
+
 ### HIL GPU server ###
 alias hil='ssh -p 7777 sukim@hi20.snu.ac.kr'
 
 
 ### alias ###
-alias ls='ls -A'
+alias ls='ls -a'
 alias refresh='source ~/.bashrc'
+alias tmux="TERM=xterm-256color tmux"
 
 
 ### virtual env auto activate ###
@@ -54,3 +62,4 @@ function cd() {
         fi
     fi
 }
+
