@@ -3,7 +3,7 @@ alias hil='ssh -p 7777 sukim@hi20.snu.ac.kr'
 
 
 ### alias ###
-alias ls='ls -a'
+alias ls='ls -A'
 alias refresh='source ~/.bashrc'
 
 
@@ -54,4 +54,3 @@ function cd() {
         fi
     fi
 }
-
