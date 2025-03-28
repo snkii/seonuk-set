@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 백업 디렉토리 이름
-BACKUP_DIR="seonuk_set"
+BACKUP_DIR="seonuk-set"
 
 # 백업 디렉토리가 없으면 생성
 mkdir -p "$BACKUP_DIR"
