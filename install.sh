@@ -7,7 +7,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DEST_DIR="$(dirname "$SCRIPT_DIR")"
 
 # 복사할 파일 목록
-FILES=(".bash_profile" ".bashrc" ".tmux.conf" ".vimrc" "seonuk-set.sh")
+FILES=(".zshrc" ".bash_profile" ".bashrc" ".tmux.conf" ".vimrc" "seonuk-set.sh")
 
 echo "🔧 설정 파일 설치 시작..."
 
