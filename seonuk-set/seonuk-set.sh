@@ -7,7 +7,7 @@ BACKUP_DIR="seonuk-set"
 mkdir -p "$BACKUP_DIR"
 
 # 복사할 파일 리스트
-FILES=(".zshrc" ".bashrc" ".bash_profile" ".vimrc" ".tmux.conf")
+FILES=(".bashrc" ".bash_profile" ".vimrc" ".tmux.conf")
 
 # 각 파일을 확인하고 존재할 경우 복사
 for file in "${FILES[@]}"; do
