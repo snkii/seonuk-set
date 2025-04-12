@@ -4,7 +4,7 @@ BACKUP_DIR="seonuk-set"
 
 mkdir -p "$BACKUP_DIR"
 
-FILES=(".zshrc" ".bashrc" ".bash_profile" ".vimrc" ".tmux.conf")
+FILES=(".p10k.zsh" ".zshrc" ".bashrc" ".bash_profile" ".vimrc" ".tmux.conf")
 
 for file in "${FILES[@]}"; do
     if [ -f ~/"$file" ]; then
