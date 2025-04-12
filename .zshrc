@@ -187,7 +187,7 @@ source $ZSH/oh-my-zsh.sh
 export CUDA_VISIBLE_DEVICES="0,1,2,3"
 
 # CUDA
-export CUDA_HOME=/usr/local/cuda-12.1.0
+export CUDA_HOME=/usr/local/cuda
 export PATH=$CUDA_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=$CUDA_HOME/lib:$LD_LIBRARY_PATH
@@ -207,3 +207,6 @@ export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 
 # uv
 . "$HOME/.local/bin/env"
+
+alias rm='trash-put'
+alias hil='ssh -p 7777 sukim@hi20.snu.ac.kr'
